@@ -56,3 +56,10 @@ defenum(Bnb.StateEnum, :state, [
   :wi,
   :wy
 ])
+
+defenum(Bnb.PropertyTypeEnum, :property_type, [
+  :bed,
+  :room,
+  :whole_home,
+  :multi_dwelling
+])
