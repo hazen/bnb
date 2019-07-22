@@ -27,7 +27,7 @@ defmodule Bnb.Repo.Migrations.AddPropertyTable do
   end
 
   def down do
-    drop table("properties")
+    drop(table("properties"))
 
     Bnb.PropertyTypeEnum.drop_type()
 

@@ -19,7 +19,7 @@ defmodule Bnb.Repo.Migrations.InitialTables do
   end
 
   def down do
-    drop table("users")
+    drop(table("users"))
 
     Bnb.StateEnum.drop_type()
   end
